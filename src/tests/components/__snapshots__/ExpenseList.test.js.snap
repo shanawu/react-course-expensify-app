@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseList component with no expenses 1`] = `
+<div>
+  <div>
+    <h1>
+      Expense List
+    </h1>
+    <p>
+      No expenses
+    </p>
+  </div>
+</div>
+`;
+
+exports[`should render ExpenseList with expenses 1`] = `
+<div>
+  <div>
+    <h1>
+      Expense List
+    </h1>
+    <div>
+      <a
+        href="/edit/1"
+      >
+        Gas
+      </a>
+      <p>
+        156
+         - 
+        0
+      </p>
+    </div>
+    <div>
+      <a
+        href="/edit/2"
+      >
+        Rent
+      </a>
+      <p>
+        109500
+         - 
+        -345600000
+      </p>
+    </div>
+    <div>
+      <a
+        href="/edit/3"
+      >
+        Groceries
+      </a>
+      <p>
+        569
+         - 
+        345600000
+      </p>
+    </div>
+  </div>
+</div>
+`;

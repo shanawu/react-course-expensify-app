@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header 1`] = `
+<div>
+  <header>
+    <h1>
+      Expensify
+    </h1>
+    <a
+      aria-current="page"
+      class="active-link"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      class=""
+      href="/create"
+    >
+      Add Expense
+    </a>
+    <a
+      class=""
+      href="/edit"
+    >
+      Edit Expense
+    </a>
+    <a
+      class=""
+      href="/help"
+    >
+      Help
+    </a>
+  </header>
+</div>
+`;

@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Expense Form correctly 1`] = `
+<div>
+  <div>
+    <form
+      data-testid="expense-form"
+    >
+      <input
+        data-testid="description-input"
+        placeholder="Description"
+        type="text"
+        value=""
+      />
+      <input
+        data-testid="amount-input"
+        placeholder="Amount"
+        type="text"
+        value=""
+      />
+      <div
+        class="SingleDatePicker SingleDatePicker_1"
+      >
+        <div>
+          <div
+            class="SingleDatePickerInput SingleDatePickerInput_1 SingleDatePickerInput__withBorder SingleDatePickerInput__withBorder_2"
+          >
+            <div
+              class="DateInput DateInput_1"
+            >
+              <input
+                aria-describedby="DateInput__screen-reader-message-date"
+                aria-label="Date"
+                autocomplete="off"
+                class="DateInput_input DateInput_input_1"
+                id="date"
+                name="date"
+                placeholder="Date"
+                type="text"
+                value="07/23/2023"
+              />
+              <p
+                class="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                id="DateInput__screen-reader-message-date"
+              >
+                Navigate forward to interact with the calendar and select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <textarea
+        data-testid="note-textarea"
+        placeholder="Add a note for your expense (optional)"
+      />
+      <button
+        data-testid="expense-form-submit"
+      >
+        Add a expense
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`should render error for invalid form submission 1`] = `
+<div>
+  <div>
+    <form
+      data-testid="expense-form"
+    >
+      <input
+        data-testid="description-input"
+        placeholder="Description"
+        type="text"
+        value=""
+      />
+      <input
+        data-testid="amount-input"
+        placeholder="Amount"
+        type="text"
+        value=""
+      />
+      <div
+        class="SingleDatePicker SingleDatePicker_1"
+      >
+        <div>
+          <div
+            class="SingleDatePickerInput SingleDatePickerInput_1 SingleDatePickerInput__withBorder SingleDatePickerInput__withBorder_2"
+          >
+            <div
+              class="DateInput DateInput_1"
+            >
+              <input
+                aria-describedby="DateInput__screen-reader-message-date"
+                aria-label="Date"
+                autocomplete="off"
+                class="DateInput_input DateInput_input_1"
+                id="date"
+                name="date"
+                placeholder="Date"
+                type="text"
+                value="07/23/2023"
+              />
+              <p
+                class="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                id="DateInput__screen-reader-message-date"
+              >
+                Navigate forward to interact with the calendar and select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <textarea
+        data-testid="note-textarea"
+        placeholder="Add a note for your expense (optional)"
+      />
+      <button
+        data-testid="expense-form-submit"
+      >
+        Add a expense
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`should render error for invalid form submission 2`] = `
+<p
+  class="error-Message"
+>
+  Please provide description and/or amount.
+</p>
+`;
+
+exports[`should render the Expense Form with expense data 1`] = `
+<div>
+  <div>
+    <form
+      data-testid="expense-form"
+    >
+      <input
+        data-testid="description-input"
+        placeholder="Description"
+        type="text"
+        value="Gas"
+      />
+      <input
+        data-testid="amount-input"
+        placeholder="Amount"
+        type="text"
+        value="1.56"
+      />
+      <div
+        class="SingleDatePicker SingleDatePicker_1"
+      >
+        <div>
+          <div
+            class="SingleDatePickerInput SingleDatePickerInput_1 SingleDatePickerInput__withBorder SingleDatePickerInput__withBorder_2"
+          >
+            <div
+              class="DateInput DateInput_1"
+            >
+              <input
+                aria-describedby="DateInput__screen-reader-message-date"
+                aria-label="Date"
+                autocomplete="off"
+                class="DateInput_input DateInput_input_1"
+                id="date"
+                name="date"
+                placeholder="Date"
+                type="text"
+                value="01/01/1970"
+              />
+              <p
+                class="DateInput_screenReaderMessage DateInput_screenReaderMessage_1"
+                id="DateInput__screen-reader-message-date"
+              >
+                Navigate forward to interact with the calendar and select a date. Press the question mark key to get the keyboard shortcuts for changing dates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <textarea
+        data-testid="note-textarea"
+        placeholder="Add a note for your expense (optional)"
+      />
+      <button
+        data-testid="expense-form-submit"
+      >
+        Add a expense
+      </button>
+    </form>
+  </div>
+</div>
+`;
